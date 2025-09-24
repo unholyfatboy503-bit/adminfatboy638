@@ -1,0 +1,30 @@
+{
+  "name": "adminfatboy638",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "Middle&Crush!"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "admin-db638",
+      "database_id": "5cc725a8-4b5d-44c8-bec4-4afeabb7f207"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "saas-admin-template-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
